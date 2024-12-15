@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+#root {
+  width: 100%;
+  min-width: 360px;
+  max-width: 768px;
+  padding: 0 30px;
+  height: 100vh;
+}
+
+html {
+  background-color: #1565c05d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1565c0;
+  text-decoration: underline;
+}

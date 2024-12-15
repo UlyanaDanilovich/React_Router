@@ -1,0 +1,38 @@
+.app {
+  &-text {
+    padding: 20px 0;
+  }
+
+  &-image-list {
+    width: 100%;
+    height: 70vh;
+  }
+
+  &-header {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+
+    li {
+      padding: 5px 10px;
+      background-color: white;
+    }
+  }
+}
+
+.MuiButtonBase-root.MuiListItemButton-root {
+  padding: 0 20px;
+  text-transform: capitalize;
+}
+
+.MuiPaper-root {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 20px;
+}
+
+.MuiList-root {
+  max-height: 80vh;
+  overflow-y: auto;
+}
